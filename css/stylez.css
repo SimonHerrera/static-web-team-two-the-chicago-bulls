@@ -1,0 +1,275 @@
+
+/*========== Default styles ==========*/
+/* Everything */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/*========== Header styles ==========*/
+
+#main-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: rgba(100,100,100,.5);
+	display: flex;
+	flex-direction: row;
+	border-bottom: 3px solid #fff;
+	letter-spacing: .2em;
+	z-index: 1000;
+}
+
+#main-header nav {
+	width: 90%;
+	margin: auto;
+}
+
+#main-header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#main-header a,
+#main-header a:visited {
+	font-family: "Cabin", sans-serif;
+	color: #fff;
+	padding: 3px 10px;
+}
+
+#main-header a:hover {
+	text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+	color: #fe9e49;
+}
+
+
+
+
+/*========== Main content area styles ==========*/
+
+#wrapper {
+	min-height: 100vh;
+	width: 100%;
+	padding: 20px;
+	padding-top: 78px;
+	background: #30638E;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.page {
+	background: #fff;
+	border-radius: 10px;
+	margin: 20px auto;
+}
+
+.page-head {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	border-radius: 10px 10px 0 0;
+	background: #757a7f;
+	color: #fff;
+	margin: 0;
+	padding: 10px;
+}
+
+
+p {
+	margin: 20px 20px;
+	text-align: justify;
+}
+
+.page-content {
+	margin: 10px;
+	padding: 10px;
+}
+
+.name {
+	font-weight: 600;
+}
+
+.description {
+	font-size: 1.1;
+	max-width: 600px;
+}
+
+.ipsum {
+	font-style: none;
+	font-size: .8em;
+}
+
+.pics {
+	width: 600px;
+	margin: 20px;
+}
+
+.card {
+	min-height: 640px;
+}
+
+
+/*========== Footer styles ==========*/
+
+#main-footer p {
+	color: #000;
+	text-align: center;
+}
+
+
+
+
+/* Insert any page specific styles below. Mark with appropriate headings. */
+
+/*========== Cover styles ==========*/
+
+#cover,
+#cover-mission,
+#cover-employee,
+#cover-history,
+#cover-contact {
+	height: 100vh;
+	width: 100%;
+	padding: 75px;
+	padding-bottom: 30px;
+  background-repeat: no-repeat;
+}
+
+#cover {
+	background-image: url('../images/snowy_sunrise.jpg');
+}
+
+#cover-mission {
+	background-image: url('../images/hq.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#cover-employee {
+	background-image: url('../images/Jet.jpg');
+}
+
+#cover-history {
+	background-image: url('../images/clouds_color.jpg');
+}
+
+#cover-contact {
+	background-image: url('../images/mountains_above.jpg');
+}
+
+
+.cover-text {
+	border: 3px solid #fff;
+	height: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.cover-text h1 {
+	font-size: 3em;
+}
+
+.cover-text h2 {
+	font-size: 2em;
+}
+
+.cover-text h4 {
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.cover-text h1,
+.cover-text h2,
+.cover-text h4 {
+	max-width: 600px;
+	font-family: "Cabin", sans-serif;
+	color: #fff;
+	font-weight: 400;
+	margin: 10px 20px;
+}
+
+
+
+/*========== Mission styles ==========*/
+
+.missionStatement {
+	font-style: italic;
+}
+
+
+
+/*========== Employee styles ==========*/
+
+.employee-card {
+	flex-basis: 400px;
+	margin: 10`px;
+}
+
+.employee-card p {
+	max-width: 360px;
+}
+
+.profile_pic {
+	width: 200px;
+	margin: 10px 100px;
+	border-radius: 50%;
+}
+
+
+/*========== Mission styles ==========*/
+
+.history {
+	display: flex;
+	flex-direction: row;
+}
+
+.history-content {
+	width: 50%;
+}
+
+.history-content:first-child {
+	border-right: 1px solid #000;
+}
+
+
+
+/*========== Contact styles ==========*/
+
+input {
+	margin: 20px;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+
+input:valid {
+    box-shadow: 0 0 5px 1px green;
+}
+
+
+
+
+
+
