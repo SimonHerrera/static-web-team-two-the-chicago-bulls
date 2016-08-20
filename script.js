@@ -60,7 +60,7 @@ var vacations = [
 
 var fileTags = document.getElementById('wrapper');
 // console.log("inner", fileInfo );
-
+// console.log("vac length", vacations.length) = 8
 for(i = 0; i < vacations.length; i +=1) {
 	var eachPackage = vacations[i];
 	fileTags.innerHTML +=
